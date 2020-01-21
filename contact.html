@@ -50,7 +50,7 @@
             <p class="text-center w-responsive mx-auto mb-5">If you would like to get in touch, please contact me through this form. I will get back to you as soon as possible. Cheers!.</p>
             <div class="row text-center w-responsive mx-auto ">
               <div class="col-md-9 mb-md-0 mb-5">
-                <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+                <form id="contact-form" name="contact-form">
                   <div class="row">
                     <div class="col-md-6">
                       <div class="md-form mb-0">
@@ -85,12 +85,32 @@
                   </div>
                 </form>
                 <div class="text-center text-md-left">
-                  <a class="btn btn-primary" onclick="">Send</a>
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                    Submit
+                  </button>
                 </div>
                 <div class="status"></div>
               </div>
             </div>
           </section>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Success!</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">Your message has been sent to Julian Van Ost, expect a reply soon
+          <br>🌈🦄🌈🦄🌈🦄🌈🦄🌈🦄🌈🦄</div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
       </div>
     </div>
   </div>
