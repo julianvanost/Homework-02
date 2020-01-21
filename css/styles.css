@@ -40,7 +40,7 @@ svg {
   width: 60;
 }
 .largerLinks {
-  font-size: 40px;
+  font-size: larger;
   margin-left: 20px;
 }
 .card-text {
@@ -64,7 +64,7 @@ svg {
     flex: 0 0 100%;
     max-width: 100%;
 }
-@media (min-width: 1200px) {
+/* @media (min-width: 1200px) {
   .container {
       max-width: 100%;  
   }
@@ -83,4 +83,23 @@ svg {
     flex: 0 0 80%;
     max-width: 80%;
   }
+} */
+
+
+/* Bootsrap overrides */
+.bg-dark {
+  background-color: #004065!important;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: #d2d2d2!important;
+}
+.navbar-dark .navbar-brand {
+  font-size: 1.25rem !important;
+  color: #ffffff !important;
+  font-weight: 700!important;
+  font-family: 'Segoe UI',
+  Tahoma,
+  Geneva,
+  Verdana,
+  sans-serif!important;
 }
