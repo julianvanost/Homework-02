@@ -27,14 +27,22 @@ h1 {
   font-stretch: ultra-expanded;
   font-size: 32px;
   text-align: center;
-  margin: 5px;
+  margin: 20px;
+  margin-bottom: 20px;
 }
 
 nav {
   font-family: 'Ubuntu', sans-serif;
   font-weight: bold;
 }
-
+svg {
+  height: 60;
+  width: 60;
+}
+.largerLinks {
+  font-size: 40px;
+  margin-left: 20px;
+}
 .card-text {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
